@@ -1,9 +1,15 @@
 @import 'libs/bootstrap-reboot.min';
+@import 'base/fonts';
 
 * {
     margin: 0;
     padding: 0;
 }
+.container {
+    width: 965px;
+    margin: 0 auto;
+}
+
 
 @import 'blocks/header';
  

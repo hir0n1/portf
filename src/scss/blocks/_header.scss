@@ -7,6 +7,10 @@
     box-shadow: 1px 1px 4px;
     z-index: 100;
     background-color: #ffffff;
+    transition: 0.3s all ease;
+    &_out {
+        transform: translateY(-100%)
+    }
     &__wrapper {
         ul {
             display: flex;

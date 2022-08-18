@@ -1,0 +1,38 @@
+.social {
+    padding: 20px 0 50px 0;
+    background-color: #F6F6F6;
+    &__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 68px;
+        color: #000000;
+        text-align: center;
+    }
+    &__wrapper {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        margin: 50px auto 0px;
+    }
+    &__item {
+        width: 90px;
+        height: 90px;
+        border:#000000 solid 1px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+            path {
+                transition: 0.3s all;
+            }
+            &:hover {
+               path {
+                fill: grey;
+               } 
+            }
+        }
+    }
+}

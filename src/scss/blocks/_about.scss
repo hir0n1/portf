@@ -1,16 +1,17 @@
 .about {
-    padding-top: 40px;
+    padding: 40px 0 50px 0;
     background-color: #F6F6F6;
+    
     &__title {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 34px;
-        line-height: 41px;
+        font-size: 56px;
+        line-height: 68px;
         color: #000000;
     }
     &__text {
-        padding: 55px 0 50px 68px;
+        padding: 50px 0 0px 68px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -18,6 +19,10 @@
         line-height: 22px;
         color: #000000;
         border-right: #000000 solid 2px;
+
+        img {
+            pointer-events: none;
+        }
         p {
             width: 80%;
         }

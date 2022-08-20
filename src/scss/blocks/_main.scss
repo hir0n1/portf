@@ -53,6 +53,9 @@
             border: none;
             background-color: #fff;
             transition: 0.3s all;
+            &:focus {
+                outline: none;
+            }
         }
     }
     &__photo {

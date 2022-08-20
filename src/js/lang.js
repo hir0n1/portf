@@ -14,11 +14,12 @@ let arrLang = {
 };
 
 
-$(function() {
-    $('.translate').click(function(){
+$('.main__btn').each(function() {
+    $(this).click(function(item, i){
+        $('.main__btn').toggleClass('main__btn_black')
         let lang = $(this).attr('id');
         
-        $('.lang').each(function(){
+        $('.lang').each(function() {
             $(this).text(arrLang[lang][$(this).attr('key')]);
         });
     });

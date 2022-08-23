@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => { 
-	
+
 const header = document.querySelector('.header') 
     
 	const onScrollHeader = () => { 
@@ -29,21 +29,30 @@ const header = document.querySelector('.header')
 
 	const popup = document.querySelectorAll('.popup');
 	const popupTest = document.querySelector('.js-popupTest');
-	const iconTest = document.querySelector('.js-test');
-	const popupClose = document.querySelector('.js-popupClose');
+  const popupFitness = document.querySelector('.js-popupTest');
+	const iconFitness = document.querySelector('.js-iconFitness');
+  const iconTest = document.querySelector('.js-test');
+	const popupClose = document.querySelectorAll('.js-popupClose');
 
 
 	iconTest.addEventListener("click", function() {
 		popupTest.classList.add('popup_active');
 		header.classList.add('header_out');
 	});	
+  iconFitness.addEventListener("click", function() {
+		popupFitness.classList.add('popup_active');
+		header.classList.add('header_out');
+	});	
 
-	popupClose.addEventListener('click', function(){
-		popup.forEach((item) => {
-			item.classList.remove('popup_active');
-			console.log(this)
-		});
-	});
+	popupClose.forEach((item) => {
+    item.addEventListener('click', function(){
+        popup.forEach((i) => {
+          i.classList.remove('popup_active');
+        });
+      });
+  })
+  
+  
 
 
 

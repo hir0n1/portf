@@ -11,6 +11,18 @@
     margin: 0 auto;
 }
 
+// body {
+
+// }
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-right: 15px;
+}
+
 p {
     margin-bottom: 0;
 }
@@ -21,5 +33,7 @@ p {
 @import 'blocks/about';
 @import 'blocks/works';
 @import 'blocks/social';
+
+@import 'base/media'
 
  

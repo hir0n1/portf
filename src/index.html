@@ -26,29 +26,25 @@
     <main>
         <section class="main" id="main">
             <div class="container">
-                <div class="main__wrapper">
-                    <div class="main__name"><p class="lang" key="mainName">Иван Шейко</p></div>
-                    <div class="main__desc"><p class="lang" key="mainDesc">Начинающий Front-end разработчик 25 лет, Донецк</p></div>
-                    <div class="main__lang"><button class="main__btn main__btn_black" id="ru">RU</button><p>|</p><button class="main__btn" id="eng">ENG</button></div>
+                <div class="main__label">
+                    <div class="main__photo"><img src="./img/main-photo.jpg" alt="photo"></div>
+                    <div class="main__wrapper">
+                        <div class="main__name"><p class="lang" key="mainName">Иван Шейко</p></div>
+                        <div class="main__desc"><p class="lang" key="mainDesc">Front-end разработчик 25 лет, Донецк</p></div>
+                        <div class="main__lang"><button class="main__btn main__btn_black" id="ru">RU</button><p>|</p><button class="main__btn" id="eng">ENG</button></div>
+                    </div>
                 </div>
-                <div class="main__photo"><img src="./img/main-photo.png" alt="photo"></div>
             </div>
         </section>
         <section class="about" id="about">
             <div class="container">
                 <div class="about__title lang" key="aboutTitle"><p>Обо мне</p></div>
                 <div class="about__text lang" key="aboutText">
-                    <p>Свой путь в программировании начинал с проведения за компьютером 70% свободного времени.
-                        В университете сталкивался с такими языками как: Assembly, C, C++.</p> <br>
-                    <p>Окончательный выбор пал на Front-end разработку, т.к. разработка интерфейса и функций 
-                        кажутся наиболее интересными среди остальных направлений.</p> <br>
                     <p>Окончил курс Udemy “Веб-разработчик”. Хорошо знаю <strong>HTML/CSS</strong>. <br>
                         Ключевые навыки: <strong>адаптивная верстка, препроцессоры, БЭМ, Flex-box, Grid, Gulp, Git</strong>.</p> <br>
-                    <p><strong>JavaScript и JQuery</strong>. Изучил <strong>нативный JS</strong> и стараюсь закрепить все полученные знания на практике. </p><br>
+                    <p><strong>JavaScript и JQuery</strong>. Изучил <strong>нативный JS</strong> и закрепляю все полученные знания на практике. </p><br>
                     <p>Английским владею на уровне <strong>Intermediate</strong> или B1.</p> <br>
                     <p>Своим главным навыком считаю легкообучаемость и умение пользоваться гуглом.</p> <br>
-                    <p>Понимаю, что много еще предстоит изучить, но амбиции огромные. 
-                        Через годик собираюсь стать Senior разработчиком. Но это не точно.</p>
                 </div>
             </div>
         </section>
@@ -56,7 +52,7 @@
             <div class="container">
                 <div class="works__title lang" key="worksTitle"><p>Работы</p></div>
                 <div class="works__wrapper">
-                    <div class="works__item js-iconFitness"><img src="./img/projFitness.png" alt="project"></div>
+                    <div class="works__item js-iconFitness"><img src="./img/projBurger.png" alt="project"></div>
                     <div class="works__item js-test"><img src="./img/projTest.png" alt="project"></div>
                 </div>
             </div>
@@ -66,18 +62,13 @@
                         <div class="popup__title lang" key="popupTestTitle">
                             <p>Адаптивная верстка лендинга</p>
                         </div>
-                        <div class="popup__wrap">
-                            <div class="popup__image1"><img src="./img/sample.png" alt=""></div>
-                            <div class="popup__image2"><img src="./img/sample.png" alt=""></div>
-                            <div class="popup__image3"><img src="./img/sample.png" alt=""></div>
-                        </div>
                         <div class="popup__desc lang" key="popupTestDesc">
-                            <p>Задачей было сверстать адаптивно лендинг максимально используя CSS</p>
-                            <p>В работе использовал JQuery, SCSS, FLEX, GRID</p>
+                            <p>Задачей было сверстать страницу для демонстрации навыков.</p> <br>
+                            <p>В работе использовал JS, SСSS, FLEX, GRID, Git</p>
                         </div>
                         <div class="popup__btns">
-                            <a href="#" class="popup__btn lang" key="popupBtnCode">Посмотреть код</a>
-                            <a href="#" class="popup__btn lang" key="popupBtnWeb">Перейти на сайт</a>
+                            <a href="./TEST" class="popup__btn lang" key="popupBtnWeb" onclick="window.open(this.href,'_blank');return false;">Перейти на сайт</a>
+                            <a href="https://github.com/hir0n1/projTest" class="popup__btn lang" key="popupBtnCode" onclick="window.open(this.href,'_blank');return false;">Посмотреть код</a>            
                         </div>
                         <div class="popup__cross js-popupClose">&#10008;</div>
                     </div>
@@ -87,21 +78,17 @@
             <div class="works__popup popup js-popupFitness">
                 <div class="popup__body">
                     <div class="popup__content">
-                        <div class="popup__title lang" key="popupTestTitle">
-                            <p>Адаптивная верстка лендинга</p>
+                        <div class="popup__title lang" key="popupFitnessTitle">
+                            <p>Адаптивная верстка</p>
                         </div>
-                        <div class="popup__wrap">
-                            <div class="popup__image1"><img src="./img/sample.png" alt=""></div>
-                            <div class="popup__image2"><img src="./img/sample.png" alt=""></div>
-                            <div class="popup__image3"><img src="./img/sample.png" alt=""></div>
-                        </div>
-                        <div class="popup__desc lang" key="popupTestDesc">
-                            <p>Задачей было сверстать адаптивно лендинг максимально используя CSS</p>
-                            <p>В работе использовал JQuery, SCSS, FLEX, GRID</p>
+                        <div class="popup__desc lang" key="popupFitnessDesc">
+                            <p>Задачей было разработать интерактивный конструктор, который позволил бы пользователям создавать бургеры, выбирая ингредиенты и опциональные добавки. </p> <br>
+                            <p>В работе использовал JS, SСSS, FLEX, GRID, Git</p>
                         </div>
                         <div class="popup__btns">
-                            <a href="" class="popup__btn lang" key="popupBtnCode">Посмотреть код</a>
-                            <a href="" class="popup__btn lang" key="popupBtnWeb">Перейти на сайт</a>
+                            <a href="./MakeYourBurger" class="popup__btn lang" key="popupBtnWeb" 
+                            onclick="window.open(this.href,'_blank');return false;">Перейти на сайт</a>
+                            <a href="https://github.com/hir0n1/makeYourBurger" class="popup__btn lang" key="popupBtnCode" onclick="window.open(this.href,'_blank');return false;">Посмотреть код</a>
                         </div>
                         <div class="popup__cross js-popupClose">&#10008;</div>
                     </div>
@@ -127,7 +114,6 @@
         </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/lang.js"></script>
 </body> 

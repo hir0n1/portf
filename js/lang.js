@@ -26,7 +26,7 @@ const arrLang = {
         'mainName': 'Иван Шейко',
         'mainDesc': 'Front-end разработчик 25 лет, Донецк',
         'aboutTitle': 'Обо мне',
-        'aboutText': '<p>Окончил курс Udemy “Веб-разработчик”. Хорошо знаю <strong>HTML/CSS</strong>. <br> Ключевые навыки: <strong>адаптивная верстка, препроцессоры, БЭМ, Flex-box, Grid, Gulp, Git</strong>.</p> <br> <p><strong>JavaScript и JQuery</strong>. Изучил <strong>нативный JS</strong> и стараюсь закрепить все полученные знания на практике. </p><br> <p>Английским владею на уровне <strong>Intermediate</strong> или B1.</p> <br> <p>Своим главным навыком считаю легкообучаемость и умение пользоваться гуглом.</p>',
+        'aboutText': '<p>Окончил курс Udemy “Веб-разработчик”. Хорошо знаю <strong>HTML/CSS</strong>. <br> Ключевые навыки: <strong>адаптивная верстка, препроцессоры, БЭМ, Flex-box, Grid, Gulp, Git</strong>.</p> <br> <p><strong>JavaScript и JQuery</strong>. Изучил <strong>нативный JS</strong> и закрепляю все полученные знания на практике. </p><br> <p>Английским владею на уровне <strong>Intermediate</strong> или B1.</p> <br> <p>Своим главным навыком считаю легкообучаемость и умение пользоваться гуглом.</p>',
         'worksTitle': '<p>Работы</p>',
         'socialTitle': '<p>Свяжитесь со мной</p>',
         'popupTestTitle': '<p>Адаптивная верстка лендинга</p>',
